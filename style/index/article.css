@@ -1,0 +1,21 @@
+.aAStyle {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.divAStyle {
+  margin: 20vh auto;
+}
+
+.imgAStyle {
+  width: 120px;
+  position: relative;
+  top: -3px;
+  padding-left: 15px;
+}
+
+.dashAStyle {
+  position: relative;
+  left: 15px;
+}

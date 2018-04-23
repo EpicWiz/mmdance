@@ -1,0 +1,410 @@
+.socialIconStyleMobile {
+  display: none;
+  width: 40px;
+  margin: 12px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.socialIconsMobile img:hover {
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  background-color: #880000;
+  padding: 3px;
+}
+
+#dropContentMobile {
+  display: none;
+}
+
+#contactEmailMobile {
+  color: #000;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#contactEmailMobile:hover {
+  color: #800 !important;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 991px) and (min-width: 921px) {
+  .card {
+    height: 400px;
+  }
+
+  .cDate {
+    font-size: 12px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 920px) and (min-width: 840px) {
+    .hottie-heels {
+      font-size: 14px;
+    }
+
+    .logoStyle {
+      font-size: 30px;
+    }
+
+    #contactDrop, #socialDrop {
+      margin-top: -10px;
+    }
+
+    #youtubeLabel {
+      font-size: 18px;
+      top: 40%;
+    }
+
+    #subytLabel {
+      font-size: 13px;
+    }
+
+    .card {
+      height: 400px;
+    }
+
+    .cDate {
+      font-size: 12px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .card-text {
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 839px) and (min-width: 768px) {
+    .hottie-heels {
+      font-size: 12px;
+    }
+
+    .logoStyle {
+      font-size: 25px;
+    }
+
+    #contactDrop, #socialDrop {
+      margin-top: -15px;
+    }
+
+    #youtubeLabel {
+      font-size: 16px;
+      top: 38%;
+    }
+
+    #subytLabel {
+      font-size: 12px;
+    }
+
+    #youtubeWrap {
+      top: 45px;
+    }
+
+    .card {
+      height: 400px;
+    }
+
+    .cDate {
+      font-size: 12px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      line-height: 20px;
+    }
+    .card-text {
+      font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 755px) {
+    .hottie-heels {
+      font-size: 20px;
+    }
+
+    .logoStyle {
+      font-size: 35px;
+      margin: 0 auto;
+    }
+
+    #contactDrop, #socialDrop {
+      margin-top: 0;
+      display: none;
+    }
+
+    .dCarrot {
+      display: none;
+    }
+
+    #social {
+      display: none;
+    }
+
+    .socialIconStyleMobile {
+      display: inline;
+      background-color: #000;
+    }
+
+    #contact {
+      display: none;
+    }
+
+    #dropContentMobile {
+      display: inline;
+    }
+
+    img#topDownArrow.arrowStyle {
+      display: none;
+    }
+
+    #mainPic {
+      width: 150%;
+      margin-top: -75px;
+    }
+
+    #youtubeLabel {
+      display: none;
+    }
+
+    #ripImg {
+      display: none;
+    }
+
+    #subytLabel {
+      font-size: 12px;
+    }
+
+    #youtubeWrap {
+      top: 20px;
+    }
+
+    #events .row {
+      margin-top: 0;
+    }
+
+    #eventWrap {
+      margin-top: -60px;
+    }
+
+    .card {
+      height: 400px;
+      margin-bottom: 50px;
+    }
+
+    .cDate {
+      font-size: 15px;
+    }
+
+    .card-title {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    .card-text {
+      font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 754px) and (min-width: 402px) {
+    .hottie-heels {
+      font-size: 20px;
+    }
+
+    .logoStyle {
+      font-size: 35px;
+      margin: 0 auto;
+    }
+
+    #contactDrop, #socialDrop {
+      margin-top: 0;
+      display: none;
+    }
+
+    .dCarrot {
+      display: none;
+    }
+
+    #social {
+      display: none;
+    }
+
+    .socialIconStyleMobile {
+      display: inline;
+      background-color: #000;
+    }
+
+    #contact {
+      display: none;
+    }
+
+    #dropContentMobile {
+      display: inline;
+    }
+
+    img#topDownArrow.arrowStyle {
+      display: none;
+    }
+
+    #mainPic {
+      width: 150%;
+      margin-top: -50px;
+    }
+
+    .divAStyle {
+      margin-top: 75px;
+    }
+
+    #youtubeLabel {
+      display: none;
+      font-size: 10px;
+      top: 35%;
+    }
+
+    #ripImg {
+      display: none;
+    }
+
+    #subytLabel {
+      font-size: 8px;
+      display: none;
+    }
+
+    #youtubeWrap {
+      top: 20px;
+      margin-bottom: 100px;
+    }
+
+    #events .row {
+      margin-top: 0;
+    }
+
+    #eventWrap {
+      margin-top: -60px;
+    }
+
+    .card {
+      height: 400px;
+      margin-bottom: 50px;
+    }
+
+    .cDate {
+      font-size: 15px;
+    }
+
+    .card-title {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    .card-text {
+      font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 401px) and (min-width: 0px) {
+    .hottie-heels {
+      font-size: 20px;
+    }
+
+    .logoStyle {
+      font-size: 35px;
+      margin: 0 auto;
+    }
+
+    #contactDrop, #socialDrop {
+      margin-top: 0;
+      display: none;
+    }
+
+    .dCarrot {
+      display: none;
+    }
+
+    #social {
+      display: none;
+    }
+
+    .socialIconStyleMobile {
+      display: inline;
+      background-color: #000;
+    }
+
+    #contact {
+      display: none;
+    }
+
+    #dropContentMobile {
+      display: inline;
+    }
+
+    img#topDownArrow.arrowStyle {
+      display: none;
+    }
+
+    #mainPic {
+      width: 200%;
+      margin-top: 0;
+    }
+
+    .divAStyle {
+      margin-top: 75px;
+    }
+
+    #youtubeLabel {
+      display: none;
+      font-size: 10px;
+      top: 35%;
+    }
+
+    #ripImg {
+      display: none;
+    }
+
+    #subytLabel {
+      font-size: 8px;
+      display: none;
+    }
+
+    #youtubeWrap {
+      top: 55px;
+      margin-bottom: 100px;
+    }
+
+    #events .row {
+      margin-top: 0;
+    }
+
+    #eventWrap {
+      margin-top: -60px;
+    }
+
+    .card {
+      height: 400px;
+      margin-bottom: 50px;
+    }
+
+    .cDate {
+      font-size: 15px;
+    }
+
+    .card-title {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    .card-text {
+      font-size: 15px;
+    }
+}

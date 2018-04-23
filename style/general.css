@@ -1,0 +1,41 @@
+body {
+  font-family: 'Lato', sans-serif;,
+}
+
+a:hover {
+  color: #ff0000 !important;
+  text-decoration: none;
+}
+
+.containerStyle { /*For rows*/
+  padding: 0;
+  margin: 0;
+}
+
+.containerStyleHeader { /* For cols */
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.vaArrow {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  position: relative;
+  left: 0;
+}
+
+.pillStyle {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: none;
+}
+
+.viewAll {
+  font-weight: 300;
+  float: right;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: #000;
+}

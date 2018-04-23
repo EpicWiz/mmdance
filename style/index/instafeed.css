@@ -1,0 +1,10 @@
+.igImage {
+  height: 30px;
+  float: left;
+  padding: 0 15px;
+}
+iframe {
+  width: 10px !important;
+  min-width: 100%;
+  *width: 100%;
+}

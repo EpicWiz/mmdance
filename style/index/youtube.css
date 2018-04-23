@@ -1,0 +1,85 @@
+#youtubeWrap * {
+  border-sizing: border-box;
+}
+
+#youtubeWrap {
+  position: relative;
+  overflow: hidden;
+  border: 0 solid transparent;
+  top: 50px;
+  margin-bottom: 150px;
+}
+
+#ripImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#youtubeWrap .inner video {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  transform: scale(1.0);
+  animation-name: transform-out;
+  animation-delay: 0s;
+  animation-duration: .5s;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+#youtubeWrap .inner:hover video {
+  border: #0F0 1px solid;
+  animation-name: transform, longtransform;
+  animation-delay: 0s, .5s;
+  animation-duration: .5s, 10000s;
+  animation-direction: normal, normal;
+  animation-fill-mode: forwards, forwards;
+}
+
+@keyframes transform {
+    from {transform: scale(1.0);}
+    to {transform: scale(1.2);}
+}
+
+@keyframes longtransform {
+  from {transform: scale(1.2);}
+    to {transform: scale(1.3);}
+}
+
+
+@keyframes transform-out {
+    from {transform: scale(1.2);}
+    to {transform: scale(1.0);}
+}
+
+#youtubeLabel {
+  color: #FFFFFF;
+  position: absolute;
+  z-index: 12;
+  top: 45%;
+  left: 5%;
+  font-weight: 300;
+  width: 35%;
+  font-size: 20px;
+  overflow: hidden;
+}
+
+#subytLabel {
+  font-size: 14px;
+}
+
+.ytImage {
+  height: 25px;
+  float: left;
+  padding: 0 15px;
+}
+
+.ytimageStyle {
+  z-index: 10;
+  position: relative;
+  height: 100%;
+  width: 30%;
+}

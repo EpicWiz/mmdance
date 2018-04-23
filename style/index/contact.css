@@ -1,0 +1,55 @@
+form {
+  position: relative;
+}
+
+#send {
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#send:hover {
+  background-color: #F00;
+  color: #FFF;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.labelStyle {
+  color: #F00;
+  padding-top: 23px;
+}
+
+.inputStyle {
+  border: none;
+  border-bottom: 1px solid #F00;
+  border-radius: 0;
+}
+
+.messageStyle {
+  border: 1px solid #F00;
+  border-radius: 0;
+  position: relative;
+  margin-top: 35px;
+}
+
+.formheadStyle {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  color: #F00;
+}
+
+.buttonStyle {
+  float: right;
+  background: none;
+  border: none;
+  color: #F00;
+  margin-top: 20px;
+  border-radius: 0;
+  padding: 3px 2px;
+}
+
+.hidden {
+  display: none;
+}

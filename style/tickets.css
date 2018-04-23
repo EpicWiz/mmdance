@@ -1,0 +1,60 @@
+#events {
+  margin-top: 150px;
+}
+
+#events .row {
+  margin-top: 50px;
+}
+
+#events .btn {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  top: -37px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid tansparent;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#events .vMx {
+  background-color: #FFF;
+  color: #F00;
+  border: 1px solid #F00;
+}
+#events .vMx:hover {
+  background-color: #F00;
+  color: #FFF !important;
+  border: 1px solid #FFF;
+}
+
+.card {
+  margin: 0 auto;
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #FBFBFB;
+}
+
+.cDate {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: Arial;
+  letter-spacing: 0px !important;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.card-title {
+  font-size: 25px;
+  font-family: courier;
+  line-height: 25px;
+  font-weight: 900;
+  color: #000;
+  margin: 0 auto;
+}
+.card-text {
+  margin-top: 5px;
+}
