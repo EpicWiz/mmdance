@@ -53,3 +53,11 @@ form {
 .hidden {
   display: none;
 }
+
+#recaptchaWrap {
+  width: 92%;
+}
+
+.g-recaptcha {
+  float: right;
+}

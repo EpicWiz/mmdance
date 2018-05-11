@@ -31,6 +31,15 @@
   color: #800 !important;
   text-decoration: underline;
 }
+
+button.navbar-toggler {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  border: none;
+}
+
 @media only screen and (max-width: 991px) and (min-width: 921px) {
   .card {
     height: 400px;
@@ -138,6 +147,7 @@
 
     .logoStyle {
       font-size: 35px;
+      padding: 0;
       margin: 0 auto;
     }
 
@@ -152,6 +162,24 @@
 
     #social {
       display: none;
+    }
+
+    #tickets {
+      display: none;
+    }
+
+    #mobileLi {
+      width: 100%;
+      text-align: center;
+    }
+
+    .mobileSet {
+      width: 100%;
+      display: inline;
+    }
+
+    .navItemStyle {
+      padding-left: 0;
     }
 
     .socialIconStyleMobile {
@@ -189,7 +217,12 @@
     }
 
     #youtubeWrap {
-      top: 20px;
+      top: 50px;
+      margin-bottom: 60px;
+    }
+
+    .divAStyle {
+      margin: 100px auto;
     }
 
     #events .row {
@@ -224,7 +257,8 @@
     }
 
     .logoStyle {
-      font-size: 35px;
+      font-size: 30px;
+      padding: 0;
       margin: 0 auto;
     }
 
@@ -239,6 +273,24 @@
 
     #social {
       display: none;
+    }
+
+    #tickets {
+      display: none;
+    }
+
+    #mobileLi {
+      width: 100%;
+      text-align: center;
+    }
+
+    .mobileSet {
+      width: 100%;
+      display: block;
+    }
+
+    .navItemStyle {
+      padding-left: 0;
     }
 
     .socialIconStyleMobile {
@@ -283,8 +335,34 @@
     }
 
     #youtubeWrap {
-      top: 20px;
-      margin-bottom: 100px;
+      top: 45px;
+      margin-bottom: 50px;
+    }
+
+    button.navbar-toggler {
+      margin: 10px;
+    }
+
+    .aAStyle {
+      color: #000000;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .divAStyle {
+      margin: 100px auto;
+    }
+
+    .imgAStyle {
+      width: 120px;
+      position: relative;
+      top: -3px;
+      padding-left: 15px;
+    }
+
+    .dashAStyle {
+      position: relative;
+      left: 5px;
     }
 
     #events .row {
@@ -312,6 +390,42 @@
       font-size: 15px;
     }
 
+    #send {
+      font-size: 18px;
+    }
+
+    .labelStyle {
+      padding-top: 18px;
+      font-size: 20px;
+    }
+
+    .inputStyle {
+      margin-top: -15px;
+    }
+
+    .messageStyle {
+      margin-top: 0;
+    }
+
+    .formheadStyle {
+      font-size: 35px;
+      padding-bottom: 15px;
+    }
+
+    #recaptchaWrap {
+      width: 100%;
+    }
+
+    .g-recaptcha {
+      width: 100%;
+      float: none;
+      padding: 0;
+    }
+
+    .g-recaptcha div {
+      margin: 0 auto;
+    }
+
 }
 
 @media only screen and (max-width: 401px) and (min-width: 0px) {
@@ -320,7 +434,8 @@
     }
 
     .logoStyle {
-      font-size: 35px;
+      font-size: 25px;
+      padding: 0;
       margin: 0 auto;
     }
 
@@ -335,6 +450,24 @@
 
     #social {
       display: none;
+    }
+
+    #tickets {
+      display: none;
+    }
+
+    #mobileLi {
+      width: 100%;
+      text-align: center;
+    }
+
+    .mobileSet {
+      width: 100%;
+      display: block;
+    }
+
+    .navItemStyle {
+      padding-left: 0;
     }
 
     .socialIconStyleMobile {
@@ -359,10 +492,6 @@
       margin-top: 0;
     }
 
-    .divAStyle {
-      margin-top: 75px;
-    }
-
     #youtubeLabel {
       display: none;
       font-size: 10px;
@@ -378,9 +507,35 @@
       display: none;
     }
 
+    button.navbar-toggler {
+      margin: 8px;
+    }
+
     #youtubeWrap {
-      top: 55px;
+      top: 70px;
       margin-bottom: 100px;
+    }
+
+    .aAStyle {
+      color: #000000;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .divAStyle {
+      margin: 25px auto;
+    }
+
+    .imgAStyle {
+      width: 120px;
+      position: relative;
+      top: -3px;
+      padding-left: 15px;
+    }
+
+    .dashAStyle {
+      position: relative;
+      left: 5px;
     }
 
     #events .row {
@@ -407,4 +562,188 @@
     .card-text {
       font-size: 15px;
     }
+
+    #send {
+      font-size: 18px;
+    }
+
+    .labelStyle {
+      padding-top: 18px;
+      font-size: 20px;
+    }
+
+    .inputStyle {
+      margin-top: -15px;
+    }
+
+    .messageStyle {
+      margin-top: 0;
+    }
+
+    .formheadStyle {
+      font-size: 35px;
+      padding-bottom: 15px;
+    }
+
+    #recaptchaWrap {
+      width: 100%;
+    }
+
+    .g-recaptcha {
+      width: 100%;
+      float: none;
+      padding: 0;
+    }
+
+    .g-recaptcha div {
+      margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 350px) and (min-width: 0px) {
+  .logoStyle {
+    font-size: 20px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  button.navbar-toggler {
+    margin: 5px;
+  }
+
+  #youtubeWrap {
+    top: 70px;
+    margin-bottom: 100px;
+  }
+
+  .aAStyle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .divAStyle {
+    margin: 15px auto;
+  }
+
+  .imgAStyle {
+    width: 120px;
+    position: relative;
+    top: -3px;
+    padding-left: 15px;
+  }
+
+  .dashAStyle {
+    position: relative;
+    left: 5px;
+  }
+
+  .labelStyle {
+    padding-top: 15px;
+    font-size: 18px;
+  }
+
+  .inputStyle {
+    margin-top: -15px;
+  }
+
+  .messageStyle {
+    margin-top: 0;
+  }
+
+  .formheadStyle {
+    font-size: 33px;
+    padding-bottom: 12px;
+  }
+
+  #recaptchaWrap {
+    width: 100%;
+  }
+
+  .g-recaptcha {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
+
+  .g-recaptcha div {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 280px) and (min-width: 0px) {
+  .logoStyle {
+    font-size: 18px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  button.navbar-toggler {
+    margin: 5px;
+  }
+
+  #youtubeWrap {
+    top: 70px;
+    margin-bottom: 100px;
+  }
+
+  .aAStyle {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  .divAStyle {
+    margin: 15px auto;
+  }
+
+  .imgAStyle {
+    width: 120px;
+    position: relative;
+    top: -3px;
+    padding-left: 15px;
+  }
+
+  .dashAStyle {
+    position: relative;
+    left: 5px;
+  }
+
+  .labelStyle {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .inputStyle {
+    margin-top: -15px;
+  }
+
+  .messageStyle {
+    margin-top: 0;
+  }
+
+  .formheadStyle {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
+  #recaptchaWrap {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .g-recaptcha {
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .g-recaptcha div {
+    width: 80%;
+    float: left;
+    margin: 0 auto;
+  }
 }

@@ -4,7 +4,7 @@
 // Secret key: 6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe
 
 $captcha = $_POST["captcha"];
-$secret = "[YOUR ReCaptcha Secret Here]";
+$secret = "[YOUR SECRET]";
 $verify = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha), true);
 $success = $verify["success"];
 
@@ -32,7 +32,7 @@ if ($success == false) {
 } else if ($success == true) {
     //This user is verified by recaptcha
     // send email
-    if (mail("[Your Email Here]", $subject, $Body, $headers)){
+    if (mail("[YOUR EMAIL]", $subject, $Body, $headers)){
       //send successful
       echo "Recaptcha Success, Mail Sent Successfully";
     }else{
